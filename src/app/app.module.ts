@@ -7,11 +7,13 @@ import { HomeComponent } from '../home/home.comonent';
 import {RouterModule } from '@angular/router';
 import { EmployeeComponent } from '../employee/employee.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     EmployeeComponent
+    
   ],
   imports: [
     BrowserModule,
