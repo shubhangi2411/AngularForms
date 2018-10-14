@@ -11,7 +11,7 @@ import { Employee } from "../app/models/employee.model";
 export class EmployeeComponent{
     pageTitle:string="Employee Form"
     languages=['English','Hindi','French','German','Spanish'];
-    model=new Employee('Darla','Smith',true);
+    model=new Employee('Anidh','Singh',true,'w2','English');
     firstNameToUpperCase(value:string){
         if(value.length>0)
         {
